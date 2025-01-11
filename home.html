@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Form</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-image: url("https://plus.unsplash.com/premium_photo-1682656220562-32fde8256295?fm=jpg&amp;q=60&amp;w=3000&amp;ixlib=rb-4.0.3&amp;ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmV3JTIweW9yayUyMGNpdHl8ZW58MHx8MHx8fDA%3D" ); 
+      background-size: cover;
+      background-position: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .container {
+      background-color: rgba(247, 246, 246, 0.8); 
+      padding: 50px;
+      border-radius: 20px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    input[type="text"],
+    input[type="password"] {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      border: 1px solid #fdfdfd;
+      border-radius: 3px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: rgb(238, 233, 233);
+      padding: 10px 20px;
+      border: none;
+      border-radius: 3px;
+      cursor: pointer;
+    }
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Login Form</h2>
+    <form>
+      <input type="text" placeholder="Your Email Address" required><br>
+      <input type="password" placeholder="Your Password" required><br>
+      <input type="checkbox" id="terms">
+      <label for="terms">Agree with Terms & Conditions</label><br>
+      <button type="submit">Login</button>
+    </form>
+  </div>
+
+</body>
+</html>
